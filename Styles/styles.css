@@ -5,13 +5,40 @@
     --primary-color:#3A3A3A;
 }
 
+/*-----------------
+   Header Styles
+-----------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 110px;
+    
+}
+.header-title{
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 24px;
+    margin-right: 50px;
+}
+.nav{
+    padding: 20px 20px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 16px;
+}
 
-/* First-Section styles */
+/* First-Section styles
+------------------------*/
 .journey-cam{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 25px;
 }
 .journey{
     text-align: left;
@@ -54,7 +81,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 61px;
+    gap: 40px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
@@ -180,5 +207,7 @@
 }
 .fa-square-instagram, .fa-dribbble, .fa-twitter, .fa-youtube{
     color: #FFFFFF;
+    background-color: #3A3A3A;
+    padding: 10px;
     border-radius: 20px;
 }
